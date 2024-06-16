@@ -1,0 +1,40 @@
+baseURL: 'https://lightbi-hugo-theme.netlify.app/'
+DefaultContentLanguage: en
+languageCode: en-us
+title: BNR Networking Group
+theme: lightbi-hugo
+metaDataFormat: yaml
+pygmentsStyle: trac
+pygmentsCodefencesGuessSyntax: true
+enableRobotsTXT: true
+enableGitInfo: false
+Paginate: 6
+summaryLength: '30'
+Params:
+  commit: Ryan
+  selfHosted: true
+  mainSections:
+    - post
+    - posts
+  dateFormat: ""
+  comments: false
+  readingTime: false
+  wordCount: false
+  useHLJS: true
+  socialShare: false
+  delayDisqus: true
+  showRelatedPosts: false
+  summaryLength: '9'
+  lunrSearch: true
+  gcse: false
+  lastmod: false
+  rss: false
+  pagination: '10'
+  hideAuthor: true
+  description: Your can add your website description here.
+  previewCardImagePlacement: bottom
+
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
