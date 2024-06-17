@@ -2,7 +2,7 @@ baseURL: 'f144cd09.bnr-bth.pages.dev'
 DefaultContentLanguage: en
 languageCode: en-us
 title: BNR Networking Group
-theme: lightbi-hugo
+theme: 
 metaDataFormat: yaml
 pygmentsStyle: trac
 pygmentsCodefencesGuessSyntax: true
