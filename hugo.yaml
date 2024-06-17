@@ -8,13 +8,13 @@ pygmentsStyle: trac
 pygmentsCodefencesGuessSyntax: true
 enableRobotsTXT: true
 enableGitInfo: false
-Paginate: 6
+Paginate: 8
 summaryLength: '30'
 Params:
   selfHosted: true
   mainSections:
-    - post
-    - posts
+    - member
+    - members
   dateFormat: ""
   showDate: false
   comments: false
@@ -29,7 +29,7 @@ Params:
   gcse: false
   lastmod: false
   rss: false
-  pagination: '10'
+  pagination: '20'
   hideAuthor: true
   description: Your can add your website description here.
   previewCardImagePlacement: bottom
