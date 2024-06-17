@@ -32,7 +32,7 @@ Params:
   pagination: '20'
   hideAuthor: true
   description: BNR Networking Group, Houston TX
-  previewCardImagePlacement: middle
+  previewCardImagePlacement: top
 
 sitemap:
   changefreq: monthly
