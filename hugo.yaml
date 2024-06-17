@@ -31,8 +31,8 @@ Params:
   rss: false
   pagination: '20'
   hideAuthor: true
-  description: Your can add your website description here.
-  previewCardImagePlacement: bottom
+  description: BNR Networking Group, Houston TX
+  previewCardImagePlacement: middle
 
 sitemap:
   changefreq: monthly
