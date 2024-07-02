@@ -104,6 +104,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/members/mariana_saldana/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/members/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

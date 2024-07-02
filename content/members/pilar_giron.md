@@ -4,7 +4,7 @@ tags  :
 image : "/img/members/pilar_giron.png"
 phone : "(713) 600-1717"
 email : "pgiron@dalefamilylaw.com"
-Description  : "Pilar is an Attorney in Mexico and a Paralegal and Mediator in Texas."
+Description  : Laura Dale & Associates, P.C. - Attorney in Mexico, Paralegal & Mediator in TX
 featured: true
 ---
 Pilar is an Attorney in Mexico and a Paralegal and Mediator in Texas. Her expertise is in Family Law in both countries. Her knowledge of both cultures and her bilingual skills make her invaluable for her clients. Pilar worked at the Mexican Consulate in Houston, for two years. This experience gave her a global knowledge as to the differences of doing business in Mexico and United States. 

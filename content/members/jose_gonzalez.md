@@ -4,7 +4,7 @@ tags  :
 image : "/img/members/jose_gonzalez.jpg"
 phone : "(713)-245-9561"
 email : "jgonzalez@phoenixifs.com"
-Description  : "President & CEO Phoenix IFS"                                                                   
+Description  : "Phoenix IFS - President & CEO"                                                                   
 featured: true
 ---
                                                                                     
