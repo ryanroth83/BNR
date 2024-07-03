@@ -1101,7 +1101,14 @@ ul.share li:hover .fab {
   padding: 10px 0;
 }
 
-
+.member-card-image {
+  width: 50%;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+}
 .feature-image .carousel-caption {
   left: 5%;
   right: unset;

@@ -15,7 +15,7 @@ Params:
   mainSections:
     - member
     - members
-  dateFormat: ""
+  copyright: 2024 BNR Networking Group
   showDate: false
   comments: false
   readingTime: false

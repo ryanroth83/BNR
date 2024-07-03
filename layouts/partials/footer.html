@@ -46,27 +46,16 @@
           {{ end }}
           {{ end }}
 
-          &nbsp;&nbsp;&copy;
-          {{ if .Site.Params.since }}
-          {{ .Site.Params.since }} - {{ .Site.LastChange.Format "2006" }}
-          {{ else }}
-          {{ .Site.LastChange.Format "2006" }}
+          {{ if .Site.Params.copyright }}  
+            &copy; {{ .Site.Params.copyright }}
           {{ end }}
-
-          {{ if .Site.Title }}
-          &nbsp;&bull;&nbsp;
-          <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
-          {{ end }}
+          <!-- Please don't remove this, keep my open source work credited. -->
+          <br>
+          <a href="/credits">Credits</a> 
         </p>
-        <!-- Please don't remove this, keep my open source work credited. -->
-        <p class="credits theme-by text-muted">
-          {{ i18n "poweredBy" . | safeHTML }}
-          <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/binokochumolvarghese/lightbi-hugo">Lightbi</a>
-          &nbsp;&bull;&nbsp; Complements of <a href="https://github.com/ryanroth83">Ryan Roth</a> 
 
-          {{ if $.GitInfo }}&nbsp;&bull;&nbsp;[<a href="{{ .Site.Params.commit }}{{ .GitInfo.Hash }}">{{ substr
-            .GitInfo.Hash 0 8 }}</a>]{{ end }}
-        </p>
+        
+          
       </div>
     </div>
   </div>

@@ -2,18 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on BNR Networking Group</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:54541/tags/</link>
     <description>Recent content in Tags on BNR Networking Group</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Newsletter</title>
-      <link>http://localhost:1313/tags/newsletter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/newsletter/</guid>
-      <description></description>
-    </item>
+    <atom:link href="http://localhost:54541/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
