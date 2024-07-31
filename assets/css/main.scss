@@ -171,11 +171,7 @@ img {
 
 /* --- Navbar --- */
 
-@media (max-width: 992px) {
-  .fixed-top {
-    position: absolute;
-  }
-}
+
 
 .navbar-custom {
   background: #ffffff;
@@ -1108,9 +1104,11 @@ ul.share li:hover .fab {
 .member-card-image {
   width: 50%;
   margin: auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+}
+
+.member-page-image {
+  width: 90%;
+  margin: auto;
   padding: 10px 0;
 }
 

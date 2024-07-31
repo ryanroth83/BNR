@@ -8,7 +8,7 @@ pygmentsStyle: trac
 pygmentsCodefencesGuessSyntax: true
 enableRobotsTXT: true
 enableGitInfo: false
-Paginate: 8
+Paginate: 12
 summaryLength: '30'
 Params:
   selfHosted: true
@@ -33,6 +33,16 @@ Params:
   hideAuthor: true
   description: BNR Networking Group, Houston TX
   previewCardImagePlacement: top
+
+menu:
+  main:
+    - name: Members
+      url: /members/
+      weight: 1
+    - name: Notes
+      url: /notes/
+      weight: 2
+
 
 sitemap:
   changefreq: monthly

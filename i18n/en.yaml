@@ -18,8 +18,12 @@
 - id: newerPosts
   translation: "Newer Posts"
 - id: previousPost
-  translation: "Previous"
+  translation: "Previous Post"
 - id: nextPost
+  translation: "Next Post"
+- id: previous
+  translation: "Previous"
+- id: next
   translation: "Next"
 - id: readTime
   translation:
