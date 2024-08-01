@@ -1,7 +1,7 @@
 baseURL: https://bnr-network.pages.dev/
 DefaultContentLanguage: en
 languageCode: en-us
-title: BNR Networking Group
+title: Business Network Referral Group
 theme: 
 metaDataFormat: yaml
 pygmentsStyle: trac
@@ -15,7 +15,7 @@ Params:
   mainSections:
     - member
     - members
-  copyright: 2024 BNR Networking Group
+  copyright: 2024 Business Network Referral Group
   showDate: false
   comments: false
   readingTime: false
@@ -31,8 +31,9 @@ Params:
   rss: false
   pagination: '20'
   hideAuthor: true
-  description: BNR Networking Group, Houston TX
+  description: BNR - Business Network Referral Group, Houston TX
   previewCardImagePlacement: top
+  homeTitle: 'BNR - Business Network Referral Group'
 
 menu:
   main:
