@@ -40,8 +40,8 @@ menu:
     - name: Members
       url: /members/
       weight: 1
-    - name: Notes
-      url: /notes/
+    - name: Events
+      url: /events/
       weight: 2
 
 
