@@ -1,4 +1,4 @@
 ---
-title: BNR Members
+title: BNR Events
 description:
 ---
