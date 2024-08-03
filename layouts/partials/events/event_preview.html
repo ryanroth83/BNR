@@ -1,36 +1,35 @@
 <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
     <div class="card border mb-3 ">
         <div class="card-body">
-            <div class="row">
-                <div class="col-md-10">
-                    <h3 class="fw-bold post-title">{{ .Title }}</h3>
-                </div>
-            </div>
+            <h2 class="fw-bold post-title">
+                {{ .Title }}
+            </h2>
             {{ if .Params.subtitle }}
-            <h3 class="post-subtitle">
+            <h4 class="post-subtitle">
                 {{ .Params.subtitle }}
-            </h3>
-            {{ end }}
-            <br>
-            {{ if .Params.event_date }}
-            <h3>
-                {{ .Params.event_date }}
-            </h3>
-            {{ end }}
-            {{ if .Params.event_time }}
-            <h5>
-                {{ .Params.event_time }}
-            </h5>
-            {{ end }}
-            {{ if .Params.event_special }}
-            <br>
-            <h4>
-                {{ .Params.event_special }}
             </h4>
             {{ end }}
             <br>
+            <h4 class="fw-bold post-title">
+                {{ .Params.event_date }}
+            </h4>
+            <h6>
+                {{ .Params.event_time }}
+            </h6>
+            <br>
+            {{ if .Params.event_special }}
+            <h4 class="fw-bold post-title">
+                {{ .Params.event_special }}
+            </h4>
+            {{ if .Params.event_details }}
+            <h6>
+                {{ .Params.event_details }}
+            </h6>
+            {{ end }}
+            <br>
+            {{ end }}
             {{ if .Params.event_location }}
-            <h4>
+            <h4 class="fw-bold post-title">
                 {{ .Params.event_location }}
             </h4>
             {{ end }}
