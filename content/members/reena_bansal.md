@@ -1,11 +1,13 @@
 ---
 title : "Reena Bansal"
-tags  : 
-image : "/img/members/reena_bansal.jpg"
-phone : "(832) 483-8599"
-email :
-website: "www.vincatech1.com"
-Description  : "Vincatech1 IT Solutions"
+tags :
+params  : 
+  name : "Reena Bansal"
+  image : "/img/members/reena_bansal.jpg"
+  phone : "(832) 483-8599"
+  email : "reena@vincatech1.com"
+  website: "www.vincatech1.com"
+  company  : "Vincatech1 IT Solutions"
 featured: true
 ---
 Over a decade Reena Bansal has led Vincatech1 to support federal agencies and private sector organizations in the area of cyber security. Texas local and the right group to contract for 24/7/365 information systems monitoring. Ensuring proactive defense against potential breaches,Includes monthly antivirus licensure checks, patch management, email encryption, password discipline, and other features.

@@ -1,7 +1,7 @@
 baseURL: https://bnr-network.pages.dev/
 DefaultContentLanguage: en
 languageCode: en-us
-title: Business Network Referral Group
+title: BNR
 theme: 
 metaDataFormat: yaml
 pygmentsStyle: trac

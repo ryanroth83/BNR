@@ -1,12 +1,17 @@
 ---
 title : "Maria Barbara Garcia"
-tags  : 
-image : "/img/members/maria_barbara_garcia.png"
-phone : "(713) 893-0324"
-email : barbara@vistaagency.com
-website: "www.vistaagency.com"
-Description  :  Vista Agency - Health Insurance broker
-featured: true
+tags : 
+params:
+  name : "Maria Barbara Garcia"
+  company : "Vista Agency"
+  website : "www.vistaagency.com"
+  phone : "(713) 893-0324"
+  fax : 
+  email : barbara@vistaagency.com
+  address : 
+  description : "Health Insurance Broker"
+  image : "/img/members/maria_barbara_garcia.png"
+featured : true
 ---
 Barbara, a native Texan, began her career guiding individuals and families in the Financial Industry over 25 years ago; as a Financial Advisor and Vice-President –Sales Manager with TD Waterhouse (now TD Ameritrade) and JP Morgan Chase.   She brings that wealth of knowledge and commitment to helping others provide and secure their family’s future.  
 

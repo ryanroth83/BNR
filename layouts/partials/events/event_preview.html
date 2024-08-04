@@ -1,7 +1,7 @@
-<div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
-    <div class="card border mb-3 ">
+<div class="">
+    <div class="card border">
         <div class="card-body">
-            <h2 class="fw-bold post-title">
+            <h2 class="fw-bold">
                 {{ .Params.event_name }}
             </h2>
             {{ if .Params.subtitle }}
@@ -10,7 +10,8 @@
             </h4>
             {{ end }}
             <br>
-            <h4 class="fw-bold post-title">
+            <h6>When:</h6>
+            <h4 class="fw-bold">
                 {{ .Params.event_date }}
             </h4>
             <h6>
@@ -18,7 +19,7 @@
             </h6>
             <br>
             {{ if .Params.event_special }}
-            <h4 class="fw-bold post-title">
+            <h4 class="fw-bold">
                 {{ .Params.event_special }}
             </h4>
             {{ if .Params.event_details }}
@@ -29,7 +30,8 @@
             <br>
             {{ end }}
             {{ if .Params.event_location }}
-            <h4 class="fw-bold post-title">
+            <h6>Where:</h6>           
+            <h4 class="fw-bold">
                 {{ .Params.event_location }}
             </h4>
             {{ end }}

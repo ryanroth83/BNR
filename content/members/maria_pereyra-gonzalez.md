@@ -1,11 +1,14 @@
 ---
 title : "Maria Pereyra-Gonzalez"
-tags  : 
-image : "/img/members/maria_pereyra-gonzalez.png"
-phone : "(713) 499-8695"
-email : "maria.pereyra-gonzalez@pnc.com"
-website: 
-Description  : "PNC Business Banker - Vice President"
+params:
+  name : "Maria Pereyra-Gonzalez"
+  image : "/img/members/maria_pereyra-gonzalez.png"
+  phone : "(713) 499-8695"
+  email : "maria.pereyra-gonzalez@pnc.com"
+  website: 
+  company: "Business Banking Organization"
+  description : "Business Banker | Vice President"
+  licence: "NMLS ID 512629"
 featured: true
 ---
 Maria has worked for over 34 years in financial services.

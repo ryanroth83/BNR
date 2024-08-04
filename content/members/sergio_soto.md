@@ -1,10 +1,13 @@
 ---
-title : Sergio J. Soto
+title : "Sergio J. Soto"
 tags  : 
-image : "/img/members/no-profile-image.png"
-phone :
-email :
-Description  : "IBC - International Financial Advisor"
+params :
+  name : "Sergio J. Soto"
+  image : "/img/members/no-profile-image.png"
+  phone :
+  email :
+  company: "IBC"
+  description  : "International Financial Advisor"
 featured: true
 ---
 I have been a dedicated financial advisor since 2001, specializing in both international and domestic financial services. My career began in the international field at JP Morgan in April 2007 in Dallas, TX, where I served as an International Financial Advisor until June 2012. During my time at JP Morgan, I developed a deep understanding of global financial markets and became adept at managing diverse investment portfolios.

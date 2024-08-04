@@ -1,16 +1,8 @@
 ---
-title: Business Network Referral Group
+title: Welcome to BNR
 subtitle: Houston, TX
 bigimg: /img/bnr-logo.png
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+We are Bussiness Network Referrral Group (BNR). We are a networking group focused in helping local business owners and agents build relationships and gain quality referals.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-
-##### Social Media
-- [Instagram](https://www.instagram.com/binovarghese_)
-- [Twitter](https://twitter.com/binovarghese_)
-- [Linkedin](https://linkedin.com/in/binovarghese-)
- 
+We meet every month at The Phoenix Insurance Office, located at [5100 Westheimer Rd, Houston, TX 77056.](https://maps.app.goo.gl/yDX7JKRcBoiDWsvP9)

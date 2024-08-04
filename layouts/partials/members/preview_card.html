@@ -2,13 +2,13 @@
     <a href="{{ .Permalink }}">
         <div class="card single-post-card h-100 shadow-effect border">
             {{ with partial "get_image" . }}
-            <img src="{{ ( .Resize " 200x" ).RelPermalink }}" alt="{{ .Title }}"
+            <img src="{{ ( .Resize " 200x" ).RelPermalink }}" alt="{{ .Params.name }}"
                 class="card-img-top img-fluid lazyload">
             {{ end }}
 
             <div class="card-body">
 
-                <h3 class="fw-bold post-title">{{ .Title }}</h3>
+                <h3 class="fw-bold post-title">{{ .Params.name }}</h3>
                 {{ if .Params.subtitle }}
                 <h3 class="post-subtitle">
                     {{ .Params.subtitle }}
@@ -21,11 +21,12 @@
                 {{ print }}
                 <div class="post-entry">
 
-                    {{ if .Description }}
-                    {{ .Description }}
+                    {{ if .Params.company }}
+                        <h4> {{ .Params.company }} </h4>
+                    {{ end }}
 
-                    {{ else }}
-                    {{ .Summary }}
+                    {{ if .Params.description }}
+                      {{ .Params.description }}
                     {{ end }}
                 </div>
 

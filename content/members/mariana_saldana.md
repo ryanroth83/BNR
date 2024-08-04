@@ -1,10 +1,13 @@
 ---
-title : Mariana Saldana 
-image : "/img/members/mariana_saldana.png"
-phone : 
-email : 
-website : 
-Description  : "Uptown Real Estate - Broker Associate"
+title : "Mariana Saldana"
+params:
+  name : "Mariana Saldana"
+  image : "/img/members/mariana_saldana.png"
+  phone : 
+  email : 
+  website : 
+  company : "Uptown Real Estate Group"
+  description : "Broker Associate"
 featured: true
 ---
 Mariana Saldana ran her brokerage, UPTOWN REAL ESTATE GROUP, for over 40 years in the
