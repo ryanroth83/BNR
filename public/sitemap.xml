@@ -6,6 +6,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/events/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/events/2024-07-18/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -43,10 +47,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/credits/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/events/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
