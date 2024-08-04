@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.931369,0,0,1,-66.8465,-22.2933)">
+        <ellipse cx="651.564" cy="562.293" rx="579.792" ry="422.798" style="fill:rgb(1,1,1);"/>
+    </g>
+    <g transform="matrix(1.20777,0,0,1.29677,-116.879,-83.1893)">
+        <g transform="matrix(369.795,0,0,369.795,909.756,602)">
+        </g>
+        <text x="164.748px" y="602px" style="font-family:'Kefa-Regular', 'Kefa';font-size:369.795px;fill:rgb(235,235,235);stroke:rgb(235,235,235);stroke-width:0.8px;">BNR</text>
+    </g>
+</svg>
