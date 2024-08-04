@@ -6,7 +6,7 @@
       {{.}}
     </div>
     {{ end }}
-    {{ range .Paginator.Pages }}
+    {{ range .Pages }}
     {{ partial "events/event_preview" .}}
     {{end}}
   </div>

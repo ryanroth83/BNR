@@ -3,3 +3,5 @@
 .DS_Store
 .hugo_build.lock
 assets/.DS_Store
+resources
+public
