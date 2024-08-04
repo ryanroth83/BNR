@@ -1,5 +1,5 @@
 ---
-title : "Maria Barbara Garcia"
+title : "BNR Member"
 tags : 
 params:
   name : "Maria Barbara Garcia"

@@ -1,5 +1,5 @@
 ---
-title : "Sergio J. Soto"
+title : "BNR Member"
 tags  : 
 params :
   name : "Sergio J. Soto"

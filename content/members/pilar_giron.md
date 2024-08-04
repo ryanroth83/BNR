@@ -1,5 +1,5 @@
 ---
-title : "Pilar Giron"
+title : "BNR Member"
 tags :
 params : 
   name : "Pilar Giron"

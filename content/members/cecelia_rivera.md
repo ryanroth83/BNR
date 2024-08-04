@@ -1,5 +1,5 @@
 ---
-title : "Cecilia Rivera Fuentestags"
+title : "BNR Member"
 tags :
 params:
   name: "Cecilia Rivera Fuentestags"

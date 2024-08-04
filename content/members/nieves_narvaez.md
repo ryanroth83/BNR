@@ -1,5 +1,5 @@
 ---
-title : "Nieves Narvaez"
+title : "BNR Member"
 name : "Nieves Narvaez"
 params : 
   image : "/img/members/nieves_narvaez.jpg"

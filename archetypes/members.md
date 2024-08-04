@@ -11,6 +11,6 @@ params:
   address : 
   description : 
   image : 
-  licence :
+  license :
 featured : true
 ---

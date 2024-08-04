@@ -1,5 +1,5 @@
 ---
-title : "Mariana Saldana"
+title : "BNR Member"
 params:
   name : "Mariana Saldana"
   image : "/img/members/mariana_saldana.png"

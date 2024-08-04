@@ -1,5 +1,5 @@
 ---
-title: "Gerardo Guefen"
+title: "BNR Member"
 tags : 
 params:
   name: "Gerardo Guefen"

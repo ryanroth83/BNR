@@ -1,5 +1,5 @@
 ---
-title : "Jose G Gonzalez"
+title : "BNR Member"
 tags : 
 params:
   name : "Jose G Gonzalez"

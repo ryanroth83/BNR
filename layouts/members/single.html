@@ -1,47 +1,99 @@
 {{ define "main" }}
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
-        <div class="member-card-image p-0">
-          {{ $ := . }}
-          {{ with partial "get_image" . }}
-            {{ if not (strings.Contains $.Content $.Params.image) }}
-              <img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="rounded img-fluid lazyload">
-            {{ end }}
-          {{ end }}
-        </div>
-      </div>
-  
-      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
-        <article role="main" class="blog-post">
-          {{ .Content }}
-        </article>
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+      <div class="member-card-image p-0">
+        {{ $ := . }}
+        {{ with partial "get_image" . }}
+        {{ if not (strings.Contains $.Content $.Params.image) }}
+        <img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="rounded img-fluid lazyload">
+        {{ end }}
+        {{ end }}
       </div>
     </div>
-  
-      <!-- Prev/Next Buttons -->
-      <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
-        <ul class="list-group list-group-horizontal" style="flex-direction: row">
-          {{ if .PrevInSection }}
-            <li class="list-group-item b-0 p-0">
-              <a type="button" class="btn btn-dark" role="button" href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">
-                &larr;
-                {{ i18n "previous" }}
-              </a>
-            </li>
-          {{ end }}
-  
-          {{ if .NextInSection }}
-          <li class="list-group-item ms-auto b-0 p-0">
-            <a type="button" class="btn btn-dark" role="button" href="{{ .NextInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">
-              {{ i18n "next" }}
-              &rarr;
-            </a>
-          </li>
-          {{ end }}
-        </ul>
+    <div><br></div>
+    <div class="row justify-content-center">
+      <h1 class="row justify-content-center"> {{ .Params.name }} </h1>
+
+      
+        {{ if .Params.company }}
+          <h4 class="row justify-content-center"> {{ .Params.company }} </h4>
+        {{ end }}
       </div>
-      <!-- Prev/Next Buttons END-->
+
+      <div class="row justify-content-center">
+        {{ if .Params.description }}
+          {{ .Params.description }}
+        {{ end }}
+      </div>
+      
+      <div class="row justify-content-center">
+        {{ if .Params.license }}
+          {{ .Params.license }}
+        {{ end }}
+      </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        {{ .Content }}
+      </article>
+    </div>
   </div>
+
+
+
+  <div class="row justify-content-center">
+    <div><br></div>
+
+    {{ if .Params.phone }}
+      <h1 class="row justify-content-center">
+        <a class="row justify-content-center" href="tel:{{ .Params.phone }}">{{ .Params.phone }}</a>
+      </h1>
+    {{ end }}
+    
+    {{ if .Params.email }}
+      <a class="row justify-content-center" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+    {{ end }}
+
+    <div><br></div>
+
+    {{ if .Params.website }}
+      <h1 class="row justify-content-center">
+        <a class="row justify-content-center" href="https://{{ .Params.website }}">{{ .Params.website }}</a>
+      </h1>
+    {{ end }}
+    
+    {{ if .Params.address }}
+      {{ .Params.address }}
+    {{ end }}
+
+  </div>
+
+
+  <!-- Prev/Next Buttons -->
+  <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+    <ul class="list-group list-group-horizontal" style="flex-direction: row">
+      {{ if .PrevInSection }}
+      <li class="list-group-item b-0 p-0">
+        <a type="button" class="btn btn-dark" role="button" href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip"
+          data-placement="top" title="{{ .PrevInSection.Title }}">
+          &larr;
+          {{ i18n "previous" }}
+        </a>
+      </li>
+      {{ end }}
+
+      {{ if .NextInSection }}
+      <li class="list-group-item ms-auto b-0 p-0">
+        <a type="button" class="btn btn-dark" role="button" href="{{ .NextInSection.Permalink }}" data-toggle="tooltip"
+          data-placement="top" title="{{ .NextInSection.Title }}">
+          {{ i18n "next" }}
+          &rarr;
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  <!-- Prev/Next Buttons END-->
+</div>
 {{ end }}
-  

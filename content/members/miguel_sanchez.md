@@ -1,5 +1,5 @@
 ---
-title: "Miguel Sanchez"
+title: "BNR Member"
 tags :
 params : 
   name: "Miguel Sanchez"

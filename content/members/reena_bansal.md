@@ -1,5 +1,5 @@
 ---
-title : "Reena Bansal"
+title : "BNR Member"
 tags :
 params  : 
   name : "Reena Bansal"

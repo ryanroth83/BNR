@@ -1,5 +1,5 @@
 ---
-title : "Maria Pereyra-Gonzalez"
+title : "BNR Member"
 params:
   name : "Maria Pereyra-Gonzalez"
   image : "/img/members/maria_pereyra-gonzalez.png"
@@ -8,7 +8,7 @@ params:
   website: 
   company: "Business Banking Organization"
   description : "Business Banker | Vice President"
-  licence: "NMLS ID 512629"
+  license: "NMLS ID 512629"
 featured: true
 ---
 Maria has worked for over 34 years in financial services.
