@@ -1,18 +1,10 @@
 {{ define "main" }}
 <div class="container">
-  <div class="row flex-lg-row-reverse align-items-center">
-    <div class="col-md-8 col-lg-8">
-      <div class="col-12">
-        {{ with .Content }}
-        {{.}}
-        {{ end }}
-        <br>
-        <div>
-          <a href="/members"><button type="button" class="btn btn-outline-dark">Members</button></a>
-          <a href="/events"><button type="button" class="btn btn-outline-dark">Events</button></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>  
+  <div class="home-page">
+  {{ with .Content }} {{.}} {{ end }}
+  <br>
+  <a href="/members"><button type="button" class="btn btn-outline-dark">Members</button></a>
+  <a href="/events"><button type="button" class="btn btn-outline-dark">Events</button></a>
+</div>
+</div>
 {{ end }}
