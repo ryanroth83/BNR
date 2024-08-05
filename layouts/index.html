@@ -1,10 +1,12 @@
 {{ define "main" }}
-<div class="container">
-  <div class="home-page">
-  {{ with .Content }} {{.}} {{ end }}
-  <br>
-  <a href="/members"><button type="button" class="btn btn-outline-dark">Members</button></a>
-  <a href="/events"><button type="button" class="btn btn-outline-dark">Events</button></a>
-</div>
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 home-page">
+      {{ with .Content }} {{.}} {{ end }}
+      <br>
+      <a href="/members"><button type="button" class="btn btn-dark">Members</button></a>
+      <a href="/events"><button type="button" class="btn btn-dark">Events</button></a>
+    </div>
+  </div>
 </div>
 {{ end }}
