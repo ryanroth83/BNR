@@ -4,7 +4,7 @@ subtitle:
 slogan: '"Building Trust, One Referral at a Time"'
 # use partial logo-svg.html for logo svg data, allows for light dark/mode switching. Colors in custon.scss
 ---
-We are The Bussiness Network Referrral Group (BNR), a business networking  group focused on helping local business owners and agents build relationships and gain quality referals.
+We are The Business Network Referral Group (BNR), a business networking group focused on helping local business owners and agents build relationships; and gain quality referrals.
 
 We meet every second Thursday at:
 ## **The Phoenix Insurance Office**
