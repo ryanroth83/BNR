@@ -1,17 +1,17 @@
 <div class="">
     <div class="card border">
         <div class="card-body">
-            <h2 class="fw-bold">
+            <h2 class="fw-bold event-page">
                 {{ .Params.event_name }}
             </h2>
             {{ if .Params.subtitle }}
-            <h4 class="post-subtitle">
+            <h4 class="post-subtitle event-page">
                 {{ .Params.subtitle }}
             </h4>
             {{ end }}
             <br>
             <h6>When:</h6>
-            <h4 class="fw-bold">
+            <h4 class="fw-bold event-page">
                 {{ .Params.event_date }}
             </h4>
             <h6>
@@ -19,7 +19,7 @@
             </h6>
             <br>
             {{ if .Params.event_special }}
-            <h4 class="fw-bold">
+            <h4 class="fw-bold event-page">
                 {{ .Params.event_special }}
             </h4>
             {{ if .Params.event_details }}
@@ -31,14 +31,28 @@
             {{ end }}
             {{ if .Params.event_location }}
             <h6>Where:</h6>           
-            <h4 class="fw-bold">
+            <h4 class="fw-bold event-page">
                 {{ .Params.event_location }}
             </h4>
             {{ end }}
             {{ if .Params.event_address}}
-            <h6>
-                {{ .Params.event_address }}
-            </h6>
+                <h6 class="event-page">
+                    <a href="https://www.google.com/maps/search/?api=1&query={{ .Params.event_address }}{{ if .Params.event_address2 }}{{ .Params.event_address2 }}{{ end }}"target="_blank">
+                    {{ .Params.event_address }}
+                    {{ if .Params.event_address2 }}
+                        <br> {{ .Params.event_address2 }}
+                    {{ end }}
+                    {{ if .Params.event_address3 }}
+                        <br> {{ .Params.event_address3 }}
+                    {{ end }}
+                    </a>
+                </h6>
+            {{ end }}
+            {{ if .Content }}
+                <div class="event-page">
+                    <br>
+                    {{ .Content }}
+                </div>
             {{ end }}
         </div>
     </div>

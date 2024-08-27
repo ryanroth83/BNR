@@ -20,3 +20,30 @@
 .home-page {
   text-align: center;
 }
+
+.event-page {
+
+}
+
+:root {
+  --light-fill-color: #000; /* default black */
+  --dark-fill-color: #fff; /* default white */
+}
+
+/* Media query for dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fill-color: var(--dark-fill-color);
+  }
+}
+
+/* Media query for light mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    --fill-color: var(--light-fill-color);
+  }
+}
+
+svg.logo {
+  fill: var(--fill-color);
+}
