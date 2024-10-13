@@ -48,6 +48,13 @@
                     </a>
                 </h6>
             {{ end }}
+                {{ if .Params.event_guests }}       
+                    <h4 class="fw-bold event-page">Guest Speakers: #</h4>
+                    {{ range .Pages }}
+                    {{ partial "events/event_guests.html" . }}
+                {{ end }}
+            {{ end }}
+
             {{ if .Content }}
                 <div class="event-page">
                     <br>

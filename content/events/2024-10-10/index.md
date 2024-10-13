@@ -9,7 +9,7 @@ params:
   event_address : "5100 Westheimer Rd"
   event_address2 : "Houston, TX 77056"
   event_address3 : "Suite 100" 
-  event_special: 
+  event_guests: "content/guests/2024-10-10"
   tags:
   weight: 4
   draft: false

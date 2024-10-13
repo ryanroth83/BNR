@@ -26,6 +26,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/guests/2024-10-10/carey_cooly/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/events/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -87,6 +91,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/credits/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

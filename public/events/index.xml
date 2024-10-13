@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BNR Events on BNR</title>
+    <title>Events on BNR</title>
     <link>http://localhost:1313/events/</link>
-    <description>Recent content in BNR Events on BNR</description>
+    <description>Recent content in Events on BNR</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>http://localhost:1313/events/2024-07-18/guests/pilar_romero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024-07-18/guests/pilar_romero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/events/2024-07-18/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/events/2024-07-18/</guid>
-      <description>Guest Speaker: Pilar Romero&#xA;New York Life Insurance Company</description>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/events/2024-08-08/guests/oralia_deluna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024-08-08/guests/oralia_deluna/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/events/2024-08-08/guests/sandra_flores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024-08-08/guests/sandra_flores/</guid>
+      <description></description>
     </item>
     <item>
       <title></title>
@@ -26,6 +47,13 @@
       <link>http://localhost:1313/events/2024-09-12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/events/2024-09-12/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/events/2024-10-10/guests/carey_cooly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024-10-10/guests/carey_cooly/</guid>
       <description></description>
     </item>
     <item>

@@ -15,6 +15,3 @@ params:
   weight: 1
   draft: false
 ---
-#### **Guest Speaker:**
-**Pilar Romero**\
-New York Life Insurance Company

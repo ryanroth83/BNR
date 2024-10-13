@@ -1,0 +1,50 @@
+<div class="">
+    <div class="card border">
+        <div class="card-body">
+            {{ if .Params.guest_name }}
+            <h4 class="post-subtitle event-page">
+                {{ .Params.guest_name }}
+            </h4>
+            {{ end }}
+            {{ if .Params.guest_company }}
+            <h4 class="post-subtitle event-page">
+                {{ .Params.guest_company }}
+            </h4>
+            {{ end }}
+            {{ if .Params.guest_category }}
+            <h4 class="post-subtitle event-page">
+                {{ .Params.guest_category }}
+            </h4>
+            {{ end }}
+            {{ if .Params.guest_office }}
+            <h4 class="post-subtitle event-page">
+                Office: {{ .Params.guest_office }}
+            </h4>
+            {{ end }}
+            {{ if .Params.guest_cell }}
+            <h4 class="post-subtitle event-page">
+                Cell: {{ .Params.guest_cell }}
+            </h4>
+            {{ end }}
+            {{ if .Params.guest_address}}
+                <h6 class="event-page">
+                    <a href="https://www.google.com/maps/search/?api=1&query={{ .Params.guest_address }}{{ if .Params.guest_address2 }}{{ .Params.guest_address2 }}{{ end }}"target="_blank">
+                    {{ .Params.guest_address }}
+                    {{ if .Params.guest_address2 }}
+                        <br> {{ .Params.guest_address2 }}
+                    {{ end }}
+                    {{ if .Params.guest_address3 }}
+                        <br> {{ .Params.guest_address3 }}
+                    {{ end }}
+                    </a>
+                </h6>
+            {{ end }}
+            {{ if .Content }}
+                <div class="event-page">
+                    <br>
+                    {{ .Content }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

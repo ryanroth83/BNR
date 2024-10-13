@@ -1,9 +1,8 @@
 ---
 title: "BNR Member"
-tags :
 params : 
   name: "Miguel Sanchez"
-  image : "/img/members/no-profile-image.png"
+  image : "/img/members/miguel_sanchez.jpeg"
   phone :
   email :
   description : "President & CEO"
