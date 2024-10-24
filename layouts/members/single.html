@@ -50,6 +50,18 @@
         <a class="row justify-content-center" href="tel:{{ .Params.phone }}">{{ .Params.phone }}</a>
       </h1>
     {{ end }}
+
+    {{ if .Params.office }}
+    <h1 class="row justify-content-center">
+      <a class="row justify-content-center" href="tel:{{ .Params.office }}">Office: {{ .Params.office }}</a>
+    </h1>
+    {{ end }}
+
+    {{ if .Params.cell }}
+    <h1 class="row justify-content-center">
+      <a class="row justify-content-center" href="tel:{{ .Params.cell }}">Cell: {{ .Params.cell }}</a>
+    </h1>
+    {{ end }}
     
     {{ if .Params.email }}
       <a class="row justify-content-center" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
