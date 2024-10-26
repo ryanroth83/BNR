@@ -3,7 +3,7 @@ title : "BNR Member"
 tags  : 
 params :
   name : "Sergio J. Soto"
-  image : "/img/members/no-profile-image.png"
+  image : "/img/members/sergio_soto.png"
   phone :
   email :
   company: "IBC"
