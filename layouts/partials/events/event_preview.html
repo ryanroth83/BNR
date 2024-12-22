@@ -1,45 +1,56 @@
-<div class="">
-    <div class="card border">
-        <div class="card-body">
-            <h2 class="fw-bold event-page">
-                {{ .Title }}
-            </h2>
-            {{ if .Params.subtitle }}
-            <h4 class="post-subtitle event-page">
-                {{ .Params.subtitle }}
-            </h4>
-            {{ end }}
-            <br>
-            <h4 class="fw-bold event-page">
-                {{ .Date.Format "January 2, 2006" }}
-            </h4>
-            <h6>
-                {{ .Date.Format "1:00 PM" }}
-                {{ if .Params.end_time }}
-                - {{ .Params.end_time }}
-                {{ end }}
-            </h6>
-            <br>
-            <h4>
-                {{ if .Params.location }}
-                    {{ .Params.location }}
-                {{ end }}
-            </h4>
-            <h6>
-                {{ if .Params.street }}
-                    {{ .Params.street }}
-                {{ end }}
-            </h6>
-
-            
-            
-            {{ if .Content }}
-            <div class="event-page">
-                <br>
-                {{ .Content }}
-            </div>
-            {{ end }}
-
-        </div>
-    </div>
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+	<a href="{{ .Permalink }}">
+  	<div class="card single-post-card h-50 shadow-effect border">
+  	  <h2 class="fw-bold event-page">
+  	      {{ .Title }}
+  	  </h2>
+  	  {{ if .Params.subtitle }}
+  	  <h4 class="post-subtitle event-page">
+  	      {{ .Params.subtitle }}
+  	  </h4>
+  	  {{ end }}
+  	  <br>
+  	  <h4 class="fw-bold event-page">
+  	      {{ .Date.Format "January 2, 2006" }}
+  	  </h4>
+  	  <h6>
+  	      {{ .Date.Format "1:00 PM" }}
+  	      {{ if .Params.end_time }}
+  	      - {{ .Params.end_time }}
+  	      {{ end }}
+  	  </h6>
+  	<div>
+		<div>
+  		<h4>
+  		    {{ if .Params.location }}
+  		    {{ .Params.location }}
+  		    {{ end }}
+  		</h4>
+  		<div>
+  			<h6>
+  				{{ if .Params.street }}
+  					{{ .Params.street }}
+  				{{ end }}
+  			</h6>
+  			<h6>
+  				{{ if .Params.city }}
+  					{{ .Params.city }}
+  				{{ end }}
+  					{{ if .Params.state }}
+  				{{ .Params.state }},
+  					{{ end }}
+  				{{ if .Params.zip }}
+  					{{ .Params.zip }}
+  				{{ end }}
+  			</h6>
+  		</div>
+  		  {{ if .Content }}
+  		  <div class="event-page">
+  		      <br>
+  		      {{ .Content }}
+  		  </div>
+  		  {{ end }}
+  		</div>
+		</div>
+  </a>
 </div>
