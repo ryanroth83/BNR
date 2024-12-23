@@ -1,9 +1,9 @@
 ---
-title : "BNR March Meeting"
+title : "BNR Meeting"
 subtitle :
-date : 2025-03-13T17:30:00
+date : 
 params :
-  end_time : "7:00 pm"
+  end_time : "7:00 PM"
   location : "Phoenix Insurance Office"
   street: "5100 Westheimer Rd"
   suite: "100"
@@ -11,11 +11,10 @@ params :
   state: "TX"
   zip: "77056"
   host:
-    - Miguel
-    - Nieves
+    - 
+    - 
   speaker:
     - 
   tags:
-  weight: 1
   draft: false
 ---

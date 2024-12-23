@@ -8,7 +8,7 @@
         {{ end }}
         <h4 class="post-entry">{{ .Date.Format "January 2, 2006" }}</h4>
         <h6>
-          {{ .Date.Format "1:00 PM" }} {{ if .Params.end_time }} - {{
+          {{ .Date | time.Format ":time_short" }} {{ if .Params.end_time }} - {{
           .Params.end_time }} {{ end }}
         </h6>
         <p class="post-meta">{{ partial "post_meta_notes.html" . }}</p>
