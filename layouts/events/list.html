@@ -9,8 +9,8 @@
         </div>
       {{ end }}
       <div class="row">
-        {{ range .Pages }}
-          {{ partial "events/event_preview" .}}
+        {{ range .Paginator.Pages }}
+        {{ partial "events/event_preview" .}}
         {{ end }}
       </div>
     </div>
@@ -18,10 +18,14 @@
 </div>
 
 <div class="container">
-  <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 home-page">    <br>
-  <a href="/events/past"><button type="button" class="btn btn-dark">Past Events</button></a>
-  <a href="/events/future"><button type="button" class="btn btn-dark">Future Events</button></a>
-  <br>
+ <div class="row font-sans">
+   <div class="col-md-12 mt-10">
+      <nav aria-label="Page navigation">
+      <ul class= "pagination justify-content-end">
+      {{ template "_internal/pagination.html" . }}
+      </ul>
+      </nav>
+    </div>
   </div>
 </div>
 
