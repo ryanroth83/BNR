@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BNR Events on BNR</title>
+    <title>Upcoming BNR Events on BNR</title>
     <link>http://localhost:1313/events/</link>
-    <description>Recent content in BNR Events on BNR</description>
+    <description>Recent content in Upcoming BNR Events on BNR</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Dec 2024 17:30:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jun 2025 17:30:00 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BNR June Meeting</title>
+      <link>http://localhost:1313/events/2025-06-12/</link>
+      <pubDate>Thu, 12 Jun 2025 17:30:00 -0600</pubDate>
+      <guid>http://localhost:1313/events/2025-06-12/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR May Meeting</title>
+      <link>http://localhost:1313/events/2025-05-08/</link>
+      <pubDate>Thu, 08 May 2025 17:30:00 -0600</pubDate>
+      <guid>http://localhost:1313/events/2025-05-08/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR April Meeting</title>
+      <link>http://localhost:1313/events/2025-04-10/</link>
+      <pubDate>Thu, 10 Apr 2025 17:30:00 -0600</pubDate>
+      <guid>http://localhost:1313/events/2025-04-10/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR March Meeting</title>
+      <link>http://localhost:1313/events/2025-03-13/</link>
+      <pubDate>Thu, 13 Mar 2025 17:30:00 -0600</pubDate>
+      <guid>http://localhost:1313/events/2025-03-13/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR February Meeting</title>
+      <link>http://localhost:1313/events/2025-02-13/</link>
+      <pubDate>Thu, 13 Feb 2025 17:30:00 -0600</pubDate>
+      <guid>http://localhost:1313/events/2025-02-13/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR January Meeting</title>
+      <link>http://localhost:1313/events/2025-01-09/</link>
+      <pubDate>Thu, 09 Jan 2025 17:30:00 -0600</pubDate>
+      <guid>http://localhost:1313/events/2025-01-09/</guid>
+      <description></description>
+    </item>
     <item>
       <title>BNR Christmas Party!</title>
       <link>http://localhost:1313/events/2024-12-12/</link>

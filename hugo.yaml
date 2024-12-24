@@ -8,7 +8,7 @@ pygmentsStyle: trac
 pygmentsCodefencesGuessSyntax: true
 enableRobotsTXT: true
 enableGitInfo: false
-Paginate: 12
+Paginate: 3
 summaryLength: '30'
 Params:
   selfHosted: true
@@ -17,6 +17,7 @@ Params:
     - members
   copyright: 2024 Business Network Referral Group
   showDate: false
+  buildFuture: true
   comments: false
   readingTime: false
   wordCount: false
