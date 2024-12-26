@@ -1,58 +1,57 @@
 {{ define "main" }}
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
-    </div>
-    <div class="row justify-content-center">
-      <h1> {{ .Title }} </h1>
+<div class="container p-4" role="main">
+  <div class="card single-post-card shadow-effect border">
+    <div class="m-4">
       {{ if .Params.subtitle }}
-        <h3 class="post-subtitle">{{ .Params.subtitle }}</h3>
+      <h2 class="row justify-content-center">{{ .Params.subtitle }}</h2>
       {{ end }}
-      <h4 class="row justify-content-center"x>{{ .Date.Format "January 2, 2006" }}</h4>
-      <h6>
+      <h4 class="row justify-content-center">{{ .Date.Format "January 2, 2006" }}</h4>
+      <h6 class="row justify-content-center">
         {{ .Date | time.Format ":time_short" }} {{ if .Params.end_time }} - {{
         .Params.end_time }} {{ end }}
       </h6>
-
-    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
-      <article role="main" class="blog-post">
-        {{ .Content }}
-      </article>
+  
+      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+        <article role="main" class="blog-post">
+          {{ .Content }}
+        </article>
+      </div>
     </div>
-  </div>
-
-    
+  
+  
     {{ if .Params.address }}
-      {{ .Params.address }}
+    {{ .Params.address }}
+    {{ end }}
+  </div>
+  </div>
+    </div>
+
+
+
+<!-- Prev/Next Buttons -->
+<div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+  <ul class="list-group list-group-horizontal" style="flex-direction: row">
+    {{ if .PrevInSection }}
+    <li class="list-group-item b-0 p-0">
+      <a type="button" class="btn btn-dark" role="button" href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip"
+        data-placement="top" title="{{ .PrevInSection.Title }}">
+        &larr;
+        {{ i18n "previous" }}
+      </a>
+    </li>
     {{ end }}
 
-  </div>
-
-
-  <!-- Prev/Next Buttons -->
-  <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
-    <ul class="list-group list-group-horizontal" style="flex-direction: row">
-      {{ if .PrevInSection }}
-      <li class="list-group-item b-0 p-0">
-        <a type="button" class="btn btn-dark" role="button" href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip"
-          data-placement="top" title="{{ .PrevInSection.Title }}">
-          &larr;
-          {{ i18n "previous" }}
-        </a>
-      </li>
-      {{ end }}
-
-      {{ if .NextInSection }}
-      <li class="list-group-item ms-auto b-0 p-0">
-        <a type="button" class="btn btn-dark" role="button" href="{{ .NextInSection.Permalink }}" data-toggle="tooltip"
-          data-placement="top" title="{{ .NextInSection.Title }}">
-          {{ i18n "next" }}
-          &rarr;
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-  <!-- Prev/Next Buttons END-->
+    {{ if .NextInSection }}
+    <li class="list-group-item ms-auto b-0 p-0">
+      <a type="button" class="btn btn-dark" role="button" href="{{ .NextInSection.Permalink }}" data-toggle="tooltip"
+        data-placement="top" title="{{ .NextInSection.Title }}">
+        {{ i18n "next" }}
+        &rarr;
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+<!-- Prev/Next Buttons END-->
 </div>
 {{ end }}
