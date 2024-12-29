@@ -5,7 +5,20 @@
   </head>
   <body>
     {{ partial "nav.html" . }}
-    {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
+    {{ block "header" . }}
+    <header class="header-section">
+      <div class="intro-header no-img mt-10">
+        <div class="container">
+          <h1 class="row justify-content-center fw-bold pt-4">
+            {{ .Title }}
+          </h1>
+          <h6 class="row justify-content-center">
+            {{ .Description }}
+          </h6>
+        </div>
+      </div>
+    </header>
+    {{ end }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer.html" . }}
     {{ block "footer" . }}{{ end }}
