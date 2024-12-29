@@ -1044,7 +1044,7 @@ ul.share li:hover .fab {
   max-width: 40%;
 }
 
-.single-post-card {
+.single-card {
   background-color: white;
   text-align: left;
   box-shadow: 0 20px 20px rgba(0, 0, 0, .08);
@@ -1058,16 +1058,14 @@ ul.share li:hover .fab {
   transition-delay: 0s;
 }
 
-.single-post-card-haiku {
+.list-card {
   background-color: white;
   text-align: left;
-  min-height: 400px;
-  margin: 3%;
   box-shadow: 0 20px 20px rgba(0, 0, 0, .08);
   white-space: normal;
   color: #4B4F56;
-  /* border: 0px ; */
-  border-color: #D9D9D9;
+  border: 0px;
+  margin: 0 2%;
   -webkit-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
   -moz-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
   transition: all 250ms cubic-bezier(.02, .01, .47, 1);
@@ -1076,7 +1074,7 @@ ul.share li:hover .fab {
 
 /* Transform commented to avoid jumping transition when hovering cards */
 
-.single-post-card:hover {
+.list-card:hover {
   box-shadow: 0 40px 40px rgba(0, 0, 0, .16);
   transition-delay: 0s !important;
   /* transform: translate(0,-20px); */

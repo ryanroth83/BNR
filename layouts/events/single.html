@@ -1,60 +1,6 @@
 {{ define "main" }}
 <div class="container p-4" role="main">
   {{ partial "events/event_single" .}}
-<!-- Prev/Next Buttons -->
-  <div class="p-2 home-page">
-    {{ if .PrevInSection }}
-    <a href="{{ .PrevInSection.Permalink }}">
-      <button type="button" class="btn btn-dark m-2"><i class="bi bi-arrow-left"></i>Previous</button></a>
-    {{ end }}
-    <a href="/events"><button type="button" class="btn btn-dark m-2">Events</button></a>
-    {{ if .NextInSection }}
-    <a href="{{ .NextInSection.Permalink }}">
-      <button type="button" class="btn btn-dark m-2">Next <i class="bi bi-arrow-right"></i></button></a>
-    {{ end }}
-  </div>
-  <!-- Prev/Next Buttons END-->
+  {{ partial "prev-back.html" . }}
 </div>
 {{ end }}
-
-<!--
-  <br>
-			<h4 class="fw-bold event-page">
-				{{ .Date.Format "January 2, 2006" }}1
-			</h4>
-			<h6>
-				{{ .Date.Format "1:00 PM" }}
-				{{ if .Params.end_time }}
-				- {{ .Params.end_time }}
-				{{ end }}
-			</h6>
-			<div>
-				<div>
-					<h4>
-						{{ if .Params.location }}
-						{{ .Params.location }}
-						{{ end }}
-					</h4>
-					<div>
-						<h6>
-							{{ if .Params.street }}
-							{{ .Params.street }}
-							{{ end }}
-						</h6>
-						<h6>
-							{{ if .Params.city }}
-							{{ .Params.city }}
-							{{ end }}
-							{{ if .Params.state }}
-							{{ .Params.state }},
-							{{ end }}
-							{{ if .Params.zip }}
-							{{ .Params.zip }}
-							{{ end }}
-						</h6>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
--->

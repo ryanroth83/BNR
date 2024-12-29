@@ -1,0 +1,22 @@
+  <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+    <ul class="list-group list-group-horizontal" style="flex-direction: row">
+
+      {{ if .PrevInSection }}
+      <li class="list-group-item b-0">
+        <a type="button" class="btn btn-dark" role="button" href="{{ .PrevInSection.Permalink }}"> &larr; Previous</a>
+      </li>
+      {{ end }}
+
+      {{ if .NextInSection }}
+      <li class="list-group-item b-0 p-2">
+        <a type="button" class="btn btn-dark" role="button" href="{{ .NextInSection.Permalink }}"> Next &rarr;</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-dark m-1">&larr; Previous</button>
+    <button type="button" class="btn btn-dark m-1">Middle</button>
+    <button type="button" class="btn btn-dark m-1">Next &rarr;</button>
+  </div>

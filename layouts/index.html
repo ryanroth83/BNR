@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="container" role="main">
     <div class="row">
-      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 home-page">
+      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 center">
         {{ partial "logo-svg.html" . }}
         {{ if .Params.slogan }}
           <h3>
@@ -12,7 +12,7 @@
         {{ with .Content }} {{.}} {{ end }}
       </div>
     </div>
-    <div class="p-2 home-page">
+    <div class="p-2 center">
       <a href="/members"><button type="button" class="btn btn-dark m-2">Members</button></a>
       <a href="/events"><button type="button" class="btn btn-dark m-2">Events</button></a>
     </div>
