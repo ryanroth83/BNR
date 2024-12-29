@@ -38,16 +38,15 @@
     <div class="row">
       <div class="col-md-12">
         <p class="credits copyright text-muted">
-          {{ if .Site.Author.name }}
-          {{ if .Site.Author.website }}
-          <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
-          {{ else }}
-          {{ .Site.Author.name }}
-          {{ end }}
-          {{ end }}
-
-          {{ if .Site.Params.copyright }}  
-            &copy; {{ .Site.Params.copyright }}
+          {{ if .Site.Params.copyright }}
+            {{ $cpyr := .Site.Params.copyrightYear }}
+            &copy;
+              {{ if lt $cpyr now.Year }}
+                {{ .Site.Params.copyrightYear }} - {{ now.Year }}
+              {{ else }}
+              {{ .Site.Params.copyrightYear }}
+              {{ end }}
+            {{ .Site.Params.copyright }}
           {{ end }}
         </p>
 
@@ -55,9 +54,7 @@
         <!-- Please don't remove this, keep my open source work credited. -->
           <a href="/credits">Developer Credits</a> 
         </div>
-        
-        
-          
+            
       </div>
     </div>
   </div>

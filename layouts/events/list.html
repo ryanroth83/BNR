@@ -8,7 +8,7 @@
         </div>
       {{ end }}
       <div class="row">
-        {{ range .Pages.Reverse }}
+        {{ range .RegularPages.Reverse }}
           {{ if ge .Params.Date.Unix now.Unix }}
             {{ partial "events/event_preview" .}}
           {{ end }}
@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="p-2 center">
-    <a href="/events/past"><button type="button" class="btn btn-dark m-2"><i class="bi bi-arrow-left"> </i>Past Events</i></button></a>
+    <a href="/events/past"><button type="button" class="btn btn-dark m-2">Past Events</i></button></a>
   </div>
 </div>
 {{ end }}

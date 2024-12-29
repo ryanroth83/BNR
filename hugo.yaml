@@ -15,7 +15,8 @@ Params:
   mainSections:
     - member
     - members
-  copyright: 2024 Business Network Referral Group
+  copyright: Business Network Referral Group
+  copyrightYear: 2024
   showDate: false
   buildFuture: true
   comments: false

@@ -2,7 +2,7 @@
 title:
 subtitle:
 slogan: '"Building Trust, One Referral at a Time"'
-# use partial logo-svg.html for logo svg data, allows for light dark/mode switching. Colors in custon.scss
+# use partial logo-svg.html for logo svg data, allows for light dark/mode switching. Colors in custom.scss
 ---
 We are The Business Network Referral Group (BNR), a business networking group focused on helping local business owners and agents build relationships; and gain quality referrals.
 

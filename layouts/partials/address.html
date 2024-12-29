@@ -1,22 +1,24 @@
-{{/* address.html */}}
-{{ $street := .Get ".Params.street" }}
-{{ $suite := .Get ".Params.suite" }}
-{{ $city := .Get ".Params.city" }}
-{{ $state := .Get ".Params.state" }}
-{{ $zip := .Get ".Params.zip" }}
-
-{{ $address := $street | replace " " "%20" }}
-{{ if $suite }}
-    {{ $address = printf "%s+Suite+%s" $address $suite | replace " " "%20" }}
-{{ end }}
-{{ $address = printf "%s,%20%s,%20%s+%s" $address $city $state $zip | replace " " "%20" }}
-
-<p>
-    <a href="https://www.google.com/maps/search/?api=1&query={{ $address }}" target="_blank">
-        {{ $street }}, 
-        {{ if $suite }}
-            Suite {{ $suite }}, 
-        {{ end }}
-        {{ $city }}, {{ $state }} {{ $zip }}
-    </a>
-</p>
+<div>
+  <h4>
+    {{ if .Params.location }}
+    {{ .Params.location }}
+    {{ end }}
+  </h4>
+  <div>
+    {{ if .Params.street }}
+      <a href="https://www.google.com/maps?q={{ .Params.street }}" target="_blank">
+        <h5>
+          {{ .Params.street }}
+        </h5>
+        <h6>
+          {{ if .Params.city }} {{ .Params.city }} {{ end }}
+          {{ if .Params.state }} {{ .Params.state }}, {{ end }}
+          {{ if .Params.zip }} {{ .Params.zip }} {{ end }}
+        </h6>
+        <h6>
+          {{ if .Params.suite }} Suite: {{ .Params.suite }} {{ end }}
+        </h6>
+      </a>
+    {{ end }}
+  </div>
+</div>

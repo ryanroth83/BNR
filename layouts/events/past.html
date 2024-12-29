@@ -9,7 +9,7 @@
       {{ end }}
       <div class="row">
         {{ with .Parent }}
-        {{ range (where .Pages "File.Name" "!=" "_index.md") }}
+        {{ range .RegularPages }}
           {{ if le .Params.Date.Unix now.Unix }}
             {{ partial "events/event_preview" .}}
           {{ end }}
@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="p-2 center">
-    <a href="/events/"><button type="button" class="btn btn-dark m-2">Upcoming Events <i class="bi bi-arrow-right"></i></button></a>
+    <a href="/events/"><button type="button" class="btn btn-dark m-2">Upcoming Events</button></a>
   </div>
 </div>
 {{ end }}
