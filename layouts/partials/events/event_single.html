@@ -8,14 +8,14 @@
 		</div>
 		<!--Hosts-->
 		{{ if .Params.host }}
-			<div class="py-4">
-				<h4>Hosted by:</h4>
-				<a href=" {{ .Params.hostLink }}">{{ .Params.host }}</a>
-				{{ if .Params.cohost }} & 
-					<a href=" {{ .Params.cohostLink }}">{{ .Params.cohost }}</a>
-				{{ end }}
-			</div>
+		<div class="py-4">
+			<h4>Hosted by:</h4>
+			<a href=" {{ .Params.hostLink }}">{{ .Params.host }}</a>
+			{{ if .Params.cohost }} &
+			<a href=" {{ .Params.cohostLink }}">{{ .Params.cohost }}</a>
+			{{ end }}
+		</div>
 		{{ end }}
 		<!--Hosts-End-->
-</div>
+	</div>
 </div>
