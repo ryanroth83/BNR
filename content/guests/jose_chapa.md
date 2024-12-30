@@ -16,6 +16,6 @@ params :
   state: 
   zip: 
 
-  description: 
+  description: Attorney At Law
   image : 
 ---

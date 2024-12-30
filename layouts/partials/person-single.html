@@ -16,10 +16,10 @@
 
     <!--TopInfo-->
     <div class="center">
-      <h1> {{ .Params.name }} </h1>
-      {{ if .Params.position }} <h4> {{ .Params.position }} </h4> {{ end }}
-      {{ if .Params.company }} <h3> {{ .Params.company }} </h3> {{ end }}
-      {{ if .Params.description }} <h6> {{ .Params.description }} </h6> {{ end }}
+      <h1 class="mb-0"> {{ .Params.name }} </h1>
+      {{ if .Params.description }} <h6 class="mb-4"> {{ .Params.description }} </h6> {{ end }} 
+      {{ if .Params.company }} <h2 class="mb-0"> {{ .Params.company }} </h2> {{ end }}
+      {{ if .Params.position }} <h5> {{ .Params.position }} </h5> {{ end }}
     </div>
     <!--TopInfo-END-->
 

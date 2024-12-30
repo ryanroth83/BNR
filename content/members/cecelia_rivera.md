@@ -8,8 +8,13 @@ params:
   phone : "(281) 740-5097" 
   fax : 
   email : "rivera@glzabogados.com" 
-  address : "5065 Westheimer Rd. Ste 1130, Houston, TX 77056"
-  description : "Attorney" 
+  location: 
+  street: "5065 Westheimer Rd."
+  suite: 1130
+  city: Houston
+  state: TX
+  zip: 77056
+  description : "Attorney At Law" 
   image : "/img/members/cecilia_rivera.jpg"
 featured : true
 ---

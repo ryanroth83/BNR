@@ -3,7 +3,7 @@ title : BNR Guest
 date: 2024-11-14T17:30:00
 params : 
   name : Mariana Fentanes
-  position : Bilingual Realtor®
+  position : 
   company : Uptown Real Estate Group
   website : uptownhouston.com
   phone : 713-679-3221
@@ -17,6 +17,6 @@ params :
   state: 
   zip: 
 
-  description: 
+  description: Bilingual Realtor®
   image : 
 ---

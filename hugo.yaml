@@ -36,6 +36,7 @@ Params:
   description: BNR - Business Network Referral Group, Houston TX
   previewCardImagePlacement: top
   homeTitle: 'BNR - Business Network Referral Group'
+  noProfileImage: '/img/no-profile-image.png'
 
 menu:
   main:

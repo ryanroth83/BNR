@@ -1,4 +1,7 @@
 {{ $img := false }}
+{{ with resources.Get .Site.Params.noProfileImage }}
+{{ $img = . }}
+{{ end }}
 {{ if .Params.image }}
   {{ with .Resources.Get .Params.image }}
     {{ $img = . }}

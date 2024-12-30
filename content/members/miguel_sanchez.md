@@ -6,9 +6,8 @@ params :
   image : "img/members/miguel_sanchez.jpeg"
   phone :
   email :
-  description : "President & CEO"
+  position : "President & CEO"
   company : "GoldQuest Capital"
-featured: true
 ---
 As President and Chief Executive Officer of GoldQuest Capital, Miguel Sanchez is responsible for the company's overall strategic vision, operation, and performance-driven results that will increase shareholder value.
 

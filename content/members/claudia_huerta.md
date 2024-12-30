@@ -5,13 +5,11 @@ params:
   name: "Claudia Huerta"
   company : "Capital Title of Texas"
   website : 
-  office : "(281) 574-5539"
-  cell :  "(832) 452-3315"
+  phone_office : "(281) 574-5539"
+  phone_cell :  "(832) 452-3315"
   email : "chuerta@ctot.com"
-  address :
   description : "Escrow Officer"
   image : "/img/members/claudia_huerta.png"
-featured : true
 ---
 Claudia Huerta is a bilingual Managing Escrow
 Officer with 23 years of experience in the

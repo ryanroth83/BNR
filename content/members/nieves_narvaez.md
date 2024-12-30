@@ -7,7 +7,6 @@ params :
   email : "narvaezcpa@gmail.com"
   company : "Nieves Narvaez CPA"
   description : "Certified Public Accountant"
-featured: true
 ---
 Nieves Narvaez’s CPA practice focuses on Individual and Corporate Entities with foreign business interests  and/or cross border transactions. He also assists foreign nationals who desire to establish or expand their foreign based businesses into the U.S. Nieves also provides representation before the IRS.
 

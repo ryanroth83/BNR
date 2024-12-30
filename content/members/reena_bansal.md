@@ -8,7 +8,7 @@ params  :
   email : "reena@vincatech1.com"
   website: "www.vincatech1.com"
   company  : "Vincatech1 IT Solutions"
-featured: true
+  description : IT Services
 ---
 Over a decade Reena Bansal has led Vincatech1 to support federal agencies and private sector organizations in the area of cyber security. Texas local and the right group to contract for 24/7/365 information systems monitoring. Ensuring proactive defense against potential breaches,Includes monthly antivirus licensure checks, patch management, email encryption, password discipline, and other features.
 Located at 5850 San Felipe st, suite 500, Houston, TX 77057
