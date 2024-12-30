@@ -3,6 +3,7 @@
 	<div class="card-body">
 
     <!--Image-->
+    {{ if .Params.image }}
     <div class="py-4">
       <div class="member-card-image p-0">
         {{ with partial "get_image" . }}
@@ -10,6 +11,7 @@
         {{ end }}
       </div>
     </div>
+    {{ end }}
     <!--Image-END-->
 
     <!--TopInfo-->
