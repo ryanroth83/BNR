@@ -1,0 +1,52 @@
+
+<div class="card single-card h-100 shadow-effect border">
+	<div class="card-body">
+
+    <!--Image-->
+    <div class="py-4">
+      <div class="member-card-image p-0">
+        {{ with partial "get_image" . }}
+          <img src="{{ .RelPermalink }}" alt="{{ .Params.name }}" class="rounded img-fluid lazyload">
+        {{ end }}
+      </div>
+    </div>
+    <!--Image-END-->
+
+    <!--TopInfo-->
+    <div class="center">
+      <h1> {{ .Params.name }} </h1>
+      {{ if .Params.position }} <h4> {{ .Params.position }} </h4> {{ end }}
+      {{ if .Params.company }} <h3> {{ .Params.company }} </h3> {{ end }}
+      {{ if .Params.description }} <h6> {{ .Params.description }} </h6> {{ end }}
+    </div>
+    <!--TopInfo-END-->
+
+    <!--Content-->
+    <div class="py-2">
+      <article role="main" class="blog-post">
+        {{ .Content }}
+      </article>
+    </div>
+
+    <!--Content-END-->
+    <div class="center py-2">
+      {{ partial "address" . }}
+    </div>
+    
+
+    <!--BottomInfo-->
+    <div class="center py-2">
+      {{ if .Params.phone }}<h4><a href="tel:{{ .Params.phone }}">{{ .Params.phone }}</a></h4>{{ end }}
+      {{ if .Params.phone_office }} <h4><a href="tel:{{ .Params.phone_office }}">Office: {{ .Params.phone_office }}</a></h4>{{ end }}
+      {{ if .Params.phone_cell }}<h4><a href="tel:{{ .Params.phone_cell }}">Cell: {{ .Params.phone_cell }}</a></h4>{{ end }}
+      {{ if .Params.email }}<h4><a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></h4>{{ end }}
+      {{ if .Params.website }}<h4><a href="https://{{ .Params.website }}">{{ .Params.website }}</a></h4>{{ end }}
+    </div>
+    <!--BottomInfo-END-->
+
+  </div>
+</div>
+
+
+
+

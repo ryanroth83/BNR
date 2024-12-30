@@ -52,7 +52,62 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/guests/carlos_pac_franco/</loc>
+    <lastmod>2024-11-14T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/ernie_garcia/</loc>
+    <lastmod>2024-11-14T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/genesis_loera/</loc>
+    <lastmod>2024-11-14T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/mariana_fentanes/</loc>
+    <lastmod>2024-11-14T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/</loc>
+    <lastmod>2024-11-14T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/events/2024-10-10/</loc>
+    <lastmod>2024-10-10T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/carey_cooley/</loc>
+    <lastmod>2024-10-10T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/jaas_parada/</loc>
+    <lastmod>2024-10-10T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/lisa_gaspard/</loc>
+    <lastmod>2024-10-10T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/liz_garza/</loc>
+    <lastmod>2024-10-10T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/tavo_cordova/</loc>
+    <lastmod>2024-10-10T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/test/</loc>
     <lastmod>2024-10-10T17:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -62,12 +117,32 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/guests/jose_chapa/</loc>
+    <lastmod>2024-09-12T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/events/2024-08-08/</loc>
     <lastmod>2024-08-08T17:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/guests/oralia_de_luna/</loc>
+    <lastmod>2024-08-08T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/sandra_flores/</loc>
+    <lastmod>2024-08-08T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/events/2024-07-18/</loc>
+    <lastmod>2024-07-18T17:30:00-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/pilar_romero/</loc>
     <lastmod>2024-07-18T17:30:00-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
