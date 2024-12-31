@@ -24,6 +24,7 @@ params :
   guest04Link:
   guest05:
   guest05Link:
+  guest06:
+  guest06Link:
   tags:
-
 ---

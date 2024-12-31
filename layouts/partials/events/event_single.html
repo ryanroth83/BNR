@@ -1,6 +1,6 @@
 <div class="card single-card h-100 shadow-effect border">
-	<div class="card-body">
-		<h3 class="fw-bold post-title">{{ .Params.subtitle }}</h3>
+	<div class="card-body center">
+		<h1 class="fw-bold post-title mb-4">{{ .Params.subtitle }}</h1>
 		<h4 class="post-entry">{{ .Date.Format "January 2, 2006" }}</h4>
 		<h6> {{ .Date | time.Format ":time_short" }} {{ if .Params.end_time }} - {{ .Params.end_time }} {{ end }}</h6>
 		<div class="pt-4">
@@ -17,5 +17,21 @@
 		</div>
 		{{ end }}
 		<!--Hosts-End-->
+
+		<!--Guests-->
+		<div>
+			{{ if .Params.guest01 }}
+				{{ if not (.Params.guest02) }}<h4>Guest Speaker:</h4>
+				{{ else }}<h4>Guest Speakers:</h4>
+				{{ end }}
+			{{ end }}
+			{{ if .Params.guest01 }}<a href=" {{ .Params.guest01Link }}"><h5>{{ .Params.guest01 }}</h5></a>{{ end }}
+			{{ if .Params.guest02 }}<a href=" {{ .Params.guest01Link }}"><h5>{{ .Params.guest02 }}</h5></a>{{ end }}
+			{{ if .Params.guest03 }}<a href=" {{ .Params.guest01Link }}"><h5>{{ .Params.guest03 }}</h5></a>{{ end }}
+			{{ if .Params.guest04 }}<a href=" {{ .Params.guest01Link }}"><h5>{{ .Params.guest04 }}</h5></a>{{ end }}
+			{{ if .Params.guest05 }}<a href=" {{ .Params.guest01Link }}"><h5>{{ .Params.guest05 }}</h5></a>{{ end }}
+			{{ if .Params.guest06 }}<a href=" {{ .Params.guest01Link }}"><h5>{{ .Params.guest06 }}</h5></a>{{ end }}
+		</div>
+		<!--Guest-End-->
 	</div>
 </div>

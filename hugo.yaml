@@ -40,14 +40,15 @@ Params:
 
 menu:
   main:
-
     - name: Members
       url: /members/
       weight: 1
     - name: Events
       url: /events/
       weight: 2
-
+    - name: Guest List
+      url: /guests/
+      weight: 2
 
 sitemap:
   changefreq: monthly

@@ -65,6 +65,13 @@
       <description></description>
     </item>
     <item>
+      <title>BNR Event</title>
+      <link>http://localhost:1313/events/test/</link>
+      <pubDate>Thu, 14 Nov 2024 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/test/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>BNR Guest</title>
       <link>http://localhost:1313/guests/carlos_pac_franco/</link>
       <pubDate>Thu, 14 Nov 2024 17:30:00 +0000</pubDate>
@@ -133,13 +140,6 @@
       <pubDate>Thu, 10 Oct 2024 17:30:00 +0000</pubDate>
       <guid>http://localhost:1313/guests/tavo_cordova/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>BNR Guest</title>
-      <link>http://localhost:1313/guests/test/</link>
-      <pubDate>Thu, 10 Oct 2024 17:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/guests/test/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     <item>
       <title>BNR Event</title>

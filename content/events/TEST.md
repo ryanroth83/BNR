@@ -1,6 +1,6 @@
 ---
 title : "BNR Event"
-subtitle : "BNR November Meeting"
+subtitle : "TEST Event"
 date : 2024-11-14T17:30:00
 params :
   end_time : "7:00 pm"
@@ -10,10 +10,10 @@ params :
   city: "Houston"
   state: "TX"
   zip: "77061"
-  host: 
-  hostLink:
-  cohost: 
-  cohostLink: 
+  host: Genesis Loera
+  hostLink: /guests/genesis_loera
+  cohost: Ernie Garcia
+  cohostLink: /guests/ernie_garcia
   guest01: Carlos E. Pac Franco
   guest01Link: /guests/carlos_pac_franco
   guest02: Mariana Fentanes

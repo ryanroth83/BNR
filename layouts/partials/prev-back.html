@@ -19,6 +19,10 @@
       </a>
     {{ end }}
 
+    {{ if .Parent.Params.backMidButton }}
+      <button type="button" class="btn btn-dark rounded m-2" onclick="history.back()">Back</button>
+    {{ end }}
+
     {{ if .Parent.Params.rightMidLink }}
       <a href="{{ .Parent.Params.rightMidLink }}">
         <button type="button" class="btn btn-dark m-2">{{ .Parent.Params.rightMid }}</button>

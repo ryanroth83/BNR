@@ -52,6 +52,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/events/test/</loc>
+    <lastmod>2024-11-14T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/guests/carlos_pac_franco/</loc>
     <lastmod>2024-11-14T17:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -103,11 +108,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/guests/tavo_cordova/</loc>
-    <lastmod>2024-10-10T17:30:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/guests/test/</loc>
     <lastmod>2024-10-10T17:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
