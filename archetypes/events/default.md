@@ -10,11 +10,20 @@ params :
   city: "Houston"
   state: "TX"
   zip: "77056"
-  host:
-    - 
-    - 
-  speaker:
-    - 
+  host: 
+  hostLink:
+  cohost: 
+  cohostLink: 
+  guest01:
+  guest01Link:
+  guest02:
+  guest02Link:
+  guest03:
+  guest03Link:
+  guest04:
+  guest04Link:
+  guest05:
+  guest05Link:
   tags:
-  draft: false
+
 ---
