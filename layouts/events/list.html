@@ -9,9 +9,9 @@
       {{ end }}
       <div class="row">
         {{ range .RegularPages.Reverse }}
-          {{ if ge .Params.Date.Unix now.Unix }}
-            {{ partial "events/event_preview" .}}
-          {{ end }}
+        {{ if ge .Params.Date.Unix now.Unix }}
+            {{ partial "events/event_preview" . }}
+        {{ end}}
         {{ end }}
       </div>
     </div>

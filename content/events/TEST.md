@@ -1,7 +1,7 @@
 ---
 title : "BNR Event"
 subtitle : "TEST Event"
-date : 2024-11-14T17:30:00
+date : 2025-12-12T17:30:00-06:00
 params :
   end_time : "7:00 pm"
   location : "Million Air - Hobby Airport"
