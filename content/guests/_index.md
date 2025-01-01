@@ -8,5 +8,4 @@ params:
   backMidButton: true
   leftMid: 
   leftMidLink: 
-  
 ---
