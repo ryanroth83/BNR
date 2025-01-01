@@ -42,10 +42,14 @@
 {{- with .Site.Author.name }}
 <meta name="author" content="{{ . }}">
 {{- end }}
-{{- partial "seo/main.html" . }}
+
 <link rel="apple-touch-icon" sizes="180x180" href=" {{ "favicon/apple-touch-icon.png" | absURL }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon/favicon-32x32.png"  | absURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon/favicon-16x16.png" | absURL }}">
+
+<link rel="shortcut icon" type="image/png" href="/favicon/android-chrome-192x192.png">
+<link rel="shortcut icon" sizes="192x192" href="/favicon/android-chrome-192x192.png">
+<link rel="shortcut icon" sizes="512x512" href="/favicon/android-chrome-512x512.png">
 
 <!-- Hugo Version number -->
 {{ hugo.Generator -}}
@@ -126,8 +130,3 @@
 {{- with resources.Get "css/main.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS $options | minify -}}
 <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{- end -}}
-
-<link rel="shortcut icon" type="image/png" href="/img/android-chrome-192x192.png">
-<link rel="shortcut icon" sizes="192x192" href="/img/android-chrome-192x192.png">
-<link rel="shortcut icon" sizes="512x512" href="/img/android-chrome-512x512.png">
-<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">

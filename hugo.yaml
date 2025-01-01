@@ -47,7 +47,7 @@ menu:
     - name: Events
       url: /events/
       weight: 2
-    - name: Guest List
+    - name: Guests
       url: /guests/
       weight: 2
 
