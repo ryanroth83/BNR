@@ -4,12 +4,12 @@
     <div class="col-md-12">
       {{ with .Content }}
         <div>
-          {{.}}
+          {{ . }}
         </div>
       {{ end }}
       <div class="row">
         {{ range .Paginator.Pages }}
-          {{ partial "person-preview" .}}
+          {{ partial "person-preview" . }}
         {{ end }}
       </div>
     </div>

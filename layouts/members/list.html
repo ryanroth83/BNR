@@ -4,12 +4,12 @@
     <div class="col-md-12">
       {{ with .Content }}
         <div>
-          {{.}}
+          {{ . }}
         </div>
       {{ end }}
       <div class="row">
         {{ range .Paginator.Pages }}
-          {{ partial "person-preview" .}}
+          {{ partial "person-preview" . }}
         {{ end }}
       </div>
     </div>
@@ -20,7 +20,7 @@
    <div class="col-md-12 mt-10">
       <nav aria-label="Page navigation">
       <ul class= "pagination justify-content-end">
-        {{ partial "pagination.html" . }}
+      {{ template "_internal/pagination.html" . }}
       </ul>
       </nav>
     </div>
