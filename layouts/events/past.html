@@ -11,7 +11,7 @@
         {{ with .Parent }}
         {{ range .RegularPages }}
           {{ if le .Params.Date.Unix now.Unix }}
-            {{ partial "events/event_preview" .}}
+            {{ partial "event_preview" .}}
           {{ end }}
         {{ end }}
         {{ end }}
