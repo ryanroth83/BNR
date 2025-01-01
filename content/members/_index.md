@@ -2,6 +2,10 @@
 title: BNR Members
 description:
 params:
-  rightMid: Members
-  rightMidLink: /members
+  prevBack: false
+  rightMid: 
+  rightMidLink: 
+  backMidButton: true
+  leftMid: 
+  leftMidLink: 
 ---
