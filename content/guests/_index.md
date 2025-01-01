@@ -2,9 +2,11 @@
 title: BNR Guest List
 description:
 params:
-  rightMid: Events
-  rightMidLink: /events
-  backMidButton:
+  prevBack: false
+  rightMid: 
+  rightMidLink: 
+  backMidButton: true
   leftMid: 
   leftMidLink: 
+  
 ---

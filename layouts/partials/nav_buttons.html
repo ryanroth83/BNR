@@ -3,14 +3,16 @@
 <div class="center m-4 p-2">
   <div class="btn-group" role="group" aria-label="Basic example">
 
-    {{ if .PrevInSection }}
-      <a href="{{ .PrevInSection.Permalink }}">
-        <button type="button" class="btn btn-dark m-2">&larr; Prev.</button>
-      </a>
-    {{ else }}
-      <div>
-        <button type="button" class="btn btn-dark m-2"disabled>&larr; Prev.</button>
-      </div>
+    {{ if ne .Parent.Params.prevBack false }}
+      {{ if .PrevInSection }}
+        <a href="{{ .PrevInSection.Permalink }}">
+          <button type="button" class="btn btn-dark m-2">&larr; Prev.</button>
+        </a>
+      {{ else }}
+        <div>
+          <button type="button" class="btn btn-dark m-2"disabled>&larr; Prev.</button>
+        </div>
+      {{ end }}
     {{ end }}
       
     {{ if .Parent.Params.leftMidLink }}
@@ -29,14 +31,17 @@
       </a>
     {{ end }}
 
-    {{ if .NextInSection }}
-      <a href="{{ .NextInSection.Permalink }}">
-        <button type="button" class="btn btn-dark m-2">Next &rarr;</button>
-      </a>
-    {{ else }}
-      <div>
-        <button type="button" class="btn btn-dark m-2"disabled>Next &rarr;</button>
-      </div>
+    {{ if ne .Parent.Params.prevBack false }}
+      {{ if .NextInSection }}
+        <a href="{{ .NextInSection.Permalink }}">
+          <button type="button" class="btn btn-dark m-2">Next &rarr;</button>
+        </a>
+      {{ else }}
+        <div>
+          <button type="button" class="btn btn-dark m-2"disabled>Next &rarr;</button>
+        </div>
+      {{ end }}
     {{ end }}
+
   </div>
 </div>
