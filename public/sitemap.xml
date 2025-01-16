@@ -178,6 +178,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/members/oralia_de_luna/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/members/pilar_giron/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
