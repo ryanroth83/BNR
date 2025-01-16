@@ -142,6 +142,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/guests/dominika_staniewicz/</loc>
+    <lastmod>2024-01-09T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/members/cecelia_rivera/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
