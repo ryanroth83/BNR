@@ -3,6 +3,7 @@ title : "BNR Member"
 tags  : 
 params :
   name : "Sergio J. Soto"
+  role : "BNR Membership Committee"
   image : "/img/members/sergio_soto.png"
   phone :
   email :

@@ -3,7 +3,7 @@ title : "BNR Member"
 tags : 
 params:
   name : "Maria Barbara Garcia"
-  boardTitle : "Operations Committee"
+  role : "BNR Operations Committee"
   company : "Vista Agency"
   website : "www.vistaagency.com"
   phone : "(713) 893-0324"

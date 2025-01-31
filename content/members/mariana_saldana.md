@@ -2,6 +2,7 @@
 title : "BNR Member"
 params:
   name : "Mariana Saldana"
+  role : "BNR Hosting Committee"
   image : "/img/members/mariana_saldana.png"
   phone : 
   email : 

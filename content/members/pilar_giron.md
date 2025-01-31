@@ -3,6 +3,7 @@ title : "BNR Member"
 tags :
 params : 
   name : "Pilar Giron"
+  role : "BNR Hosting Committee"
   company : "Laura Dale & Associates, P.C."
   website : "www.dalefamilylaw.com"
   phone : "(713) 600-1717"

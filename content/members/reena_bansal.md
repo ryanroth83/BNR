@@ -3,6 +3,7 @@ title : "BNR Member"
 tags :
 params  : 
   name : "Reena Bansal"
+  role : "BNR Hosting Committee"
   image : "/img/members/reena_bansal.jpg"
   phone : "(832) 483-8599"
   email : "reena@vincatech1.com"

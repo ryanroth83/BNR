@@ -2,7 +2,7 @@
 title : "BNR Member"
 params : 
   name : "Nieves Narvaez"
-  boardTitle : "Operations Committee"
+  role : "BNR Operations Committee"
   image : "/img/members/nieves_narvaez.jpg"
   phone : "(832) 545-3812"
   email : "narvaezcpa@gmail.com"

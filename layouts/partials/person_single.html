@@ -2,6 +2,12 @@
 <div class="card single-card h-100 shadow-effect border">
 	<div class="card-body">
 
+    <!--Role-->
+    <div class="center my-2">
+      {{ if .Params.role }} <h1 class="mb-2"> {{ .Params.role }} </h1> {{ end }}
+    </div>
+    <!--Role-->
+
     <!--Image-->
     {{ if .Params.image }}
     <div class="py-4">
@@ -17,7 +23,7 @@
     <!--TopInfo-->
     <div class="center mb-2">
       <h1 class="mb-0"> {{ .Params.name }} </h1>
-      {{ if .Params.description }} <h6 class="mb-2"> {{ .Params.description }} </h6> {{ end }}
+      {{ if .Params.description }} <h4 class="mb-2"> {{ .Params.description }} </h4> {{ end }}
       {{ if .Params.position }} <h5 class="mt-4"> {{ .Params.position }} </h5> {{ end }}
       {{ if .Params.company }} <h1 class="mb-0"> {{ .Params.company }} </h1> {{ end }}
     </div>

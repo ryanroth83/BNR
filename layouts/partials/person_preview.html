@@ -4,6 +4,12 @@
 
 	<div class="card-body">
 
+    <!--Role-->
+    <div class="center my-2">
+      {{ if .Params.role }} <h5 class="mb-2"> {{ .Params.role }} </h5> {{ end }}
+    </div>
+    <!--Role-->
+
     <!--Image-->
     {{ if .Params.image }}
     <div>

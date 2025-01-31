@@ -3,6 +3,7 @@ title: "BNR Member"
 tags : 
 params:
   name: "Gerardo Guefen"
+  role : "BNR Membership Committee"
   company : "G&G Realty Texas, LLC"
   description : Real Estate Broker
   website : 

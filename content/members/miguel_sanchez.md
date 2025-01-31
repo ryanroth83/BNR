@@ -3,6 +3,7 @@ title: "BNR Member"
 tags :
 params : 
   name: "Miguel Sanchez"
+  role : "BNR Membership Committee"
   description: Financial Broker
   image : "img/members/miguel_sanchez.jpeg"
   phone :

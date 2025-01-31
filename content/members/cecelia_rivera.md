@@ -3,6 +3,7 @@ title : "BNR Member"
 tags :
 params:
   name: "Cecilia Rivera Fuentestags"
+  role : "BNR Membership Committee"
   company : "GLZ Abogados"
   website : "www.riverkamp.com" 
   phone : "(281) 740-5097" 
