@@ -3,6 +3,7 @@ title : "BNR Member"
 tags : 
 params:
   name : "Jose G Gonzalez"
+  boardTitle : "Operations Committee"
   company : "Phoenix IFS"
   website : 
   phone : "(713)-245-9561"

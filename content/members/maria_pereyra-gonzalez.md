@@ -2,6 +2,7 @@
 title : "BNR Member"
 params:
   name : "Maria Pereyra-Gonzalez"
+  boardTitle : "Operations Committee"
   image : "/img/members/maria_pereyra-gonzalez.png"
   phone : "(713) 499-8695"
   email : "maria.pereyra-gonzalez@pnc.com"
