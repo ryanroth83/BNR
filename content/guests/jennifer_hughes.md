@@ -23,4 +23,4 @@ Jennifer Hughes Hernandez is a nationally recognized Senior Loan Officer and Top
 
 
 
-﻿Her guiding philosophy? Do the right thing, show you care, and lead with integrity.
+Her guiding philosophy? Do the right thing, show you care, and lead with integrity.

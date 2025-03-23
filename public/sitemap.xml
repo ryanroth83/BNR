@@ -37,12 +37,32 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/guests/jennifer_hughes/</loc>
-    <lastmod>2025-02-25T17:30:00+00:00</lastmod>
+    <loc>http://localhost:1313/guests/daniella_herrero/</loc>
+    <lastmod>2025-03-13T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/gilberto_flores/</loc>
+    <lastmod>2025-03-13T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/magdiel_trevino/</loc>
+    <lastmod>2025-03-13T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/minerva_bustamante/</loc>
+    <lastmod>2025-03-13T17:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/guests/</loc>
+    <lastmod>2025-03-13T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/jennifer_hughes/</loc>
     <lastmod>2025-02-25T17:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

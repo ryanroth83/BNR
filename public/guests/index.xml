@@ -6,8 +6,36 @@
     <description>Recent content in BNR Guest List on BNR</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Feb 2025 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 17:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/guests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BNR Guest</title>
+      <link>http://localhost:1313/guests/daniella_herrero/</link>
+      <pubDate>Thu, 13 Mar 2025 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/guests/daniella_herrero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR Guest</title>
+      <link>http://localhost:1313/guests/gilberto_flores/</link>
+      <pubDate>Thu, 13 Mar 2025 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/guests/gilberto_flores/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR Guest</title>
+      <link>http://localhost:1313/guests/magdiel_trevino/</link>
+      <pubDate>Thu, 13 Mar 2025 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/guests/magdiel_trevino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR Guest</title>
+      <link>http://localhost:1313/guests/minerva_bustamante/</link>
+      <pubDate>Thu, 13 Mar 2025 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/guests/minerva_bustamante/</guid>
+      <description></description>
+    </item>
     <item>
       <title>BNR Guest</title>
       <link>http://localhost:1313/guests/jennifer_hughes/</link>
