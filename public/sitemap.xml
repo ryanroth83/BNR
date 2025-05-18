@@ -27,6 +27,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/guests/anna_sazo/</loc>
+    <lastmod>2025-05-08T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/guests/</loc>
+    <lastmod>2025-05-08T17:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/events/2025-04-10/</loc>
     <lastmod>2025-04-10T17:30:00-06:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -48,11 +58,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/guests/rachel_fischer/</loc>
-    <lastmod>2025-04-10T17:30:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/guests/</loc>
     <lastmod>2025-04-10T17:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
