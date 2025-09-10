@@ -7,6 +7,6 @@ params :
   image : "/img/no-profile-image.png"
   phone :
   email :
-  company: "
+  company:
   description  :
 ---
