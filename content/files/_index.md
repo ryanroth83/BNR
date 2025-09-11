@@ -1,4 +1,0 @@
----
-title: Files
-layout: files
----
