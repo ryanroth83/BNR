@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container my-5">
+  <h1 class="mb-4">Files</h1>
+
+  {{/* Read the physical directory under static/ */}}
+  {{ $dir := "static/files" }}
+  {{ $entries := readDir $dir | sort "ModTime" "desc" }}
+
+  <ul class="list-group">
+    {{ range $entries }}
+      {{ if not .IsDir }}
+        {{ $url := printf "/files/%s" .Name }}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <a href="{{ $url }}">{{ .Name }}</a>
+          <small class="text-muted">
+            {{ .ModTime.Format "2006-01-02 15:04" }} · {{ .Size }} bytes
+          </small>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
