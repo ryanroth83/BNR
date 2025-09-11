@@ -6,8 +6,36 @@
     <description>Recent content in BNR Guest List on BNR</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 May 2025 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 17:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/guests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BNR Guest</title>
+      <link>http://localhost:1313/guests/shawn_ckerman/</link>
+      <pubDate>Tue, 12 Aug 2025 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/guests/shawn_ckerman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR Guest</title>
+      <link>http://localhost:1313/guests/buddy_tautenhaha/</link>
+      <pubDate>Thu, 10 Jul 2025 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/guests/buddy_tautenhaha/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR Guest</title>
+      <link>http://localhost:1313/guests/jose_marines/</link>
+      <pubDate>Thu, 12 Jun 2025 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/guests/jose_marines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BNR Guest</title>
+      <link>http://localhost:1313/guests/sergio_salas/</link>
+      <pubDate>Thu, 12 Jun 2025 17:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/guests/sergio_salas/</guid>
+      <description></description>
+    </item>
     <item>
       <title>BNR Guest</title>
       <link>http://localhost:1313/guests/anna_sazo/</link>
@@ -27,7 +55,7 @@
       <link>http://localhost:1313/guests/george_atala/</link>
       <pubDate>Thu, 10 Apr 2025 17:30:00 +0000</pubDate>
       <guid>http://localhost:1313/guests/george_atala/</guid>
-      <description>Architecture and Design Engineering Construction Project Management</description>
+      <description>&lt;p&gt;Architecture and Design&#xA;Engineering&#xA;Construction&#xA;Project Management&lt;/p&gt;</description>
     </item>
     <item>
       <title>BNR Guest</title>
@@ -41,7 +69,7 @@
       <link>http://localhost:1313/guests/rachel_fischer/</link>
       <pubDate>Thu, 10 Apr 2025 17:30:00 +0000</pubDate>
       <guid>http://localhost:1313/guests/rachel_fischer/</guid>
-      <description>Emergency Room RN Legal Nurse Consultant Forensic Nurse Examiner Private Investigator Legal Nurse Consultant Personal Protection Officer Victim Advocate Author Forensic Expert</description>
+      <description>&lt;p&gt;Emergency Room RN&#xA;Legal Nurse Consultant&#xA;Forensic Nurse Examiner&#xA;Private Investigator&#xA;Legal Nurse Consultant&#xA;Personal Protection Officer&#xA;Victim Advocate&#xA;Author&#xA;Forensic Expert&lt;/p&gt;</description>
     </item>
     <item>
       <title>BNR Guest</title>
@@ -83,7 +111,7 @@
       <link>http://localhost:1313/guests/jennifer_hughes/</link>
       <pubDate>Tue, 25 Feb 2025 17:30:00 +0000</pubDate>
       <guid>http://localhost:1313/guests/jennifer_hughes/</guid>
-      <description>Jennifer Hughes Hernandez is a nationally recognized Senior Loan Officer and Top Producer, building a 100% referral-based business on trust and results since 1995. As host of Emmy-nominated American Dream TV and author of Big Hug Big Kiss, Jennifer combines expertise with a passion for educating homebuyers and supporting realtors through her YouTube channel and coaching events.</description>
+      <description>&lt;p&gt;Jennifer Hughes Hernandez is a nationally recognized Senior Loan Officer and Top Producer, building a 100% referral-based business on trust and results since 1995. As host of Emmy-nominated American Dream TV and author of Big Hug Big Kiss, Jennifer combines expertise with a passion for educating homebuyers and supporting realtors through her YouTube channel and coaching events.&lt;/p&gt;</description>
     </item>
     <item>
       <title>BNR Guest</title>
@@ -181,7 +209,7 @@
       <link>http://localhost:1313/guests/dominika_staniewicz/</link>
       <pubDate>Tue, 09 Jan 2024 17:30:00 +0000</pubDate>
       <guid>http://localhost:1313/guests/dominika_staniewicz/</guid>
-      <description>BRAIN COACH, HOLISTIC COACH, ELITE NEUROENCODING SPECIALIST&#xA;I help people who struggle with:&#xA;Anxiety, Overwhelm, Depression&#xA;Self-doubt, self-loathing, self-sabotage&#xA;fear of failure, success or rejection&#xA;ADHD&#xA;When therapy didn&amp;rsquo;t work</description>
+      <description>&lt;p&gt;BRAIN COACH, HOLISTIC COACH, ELITE NEUROENCODING SPECIALIST&lt;/p&gt;&#xA;&lt;p&gt;I help people who struggle with:&lt;/p&gt;&#xA;&lt;p&gt;Anxiety, Overwhelm, Depression&lt;/p&gt;&#xA;&lt;p&gt;Self-doubt, self-loathing, self-sabotage&lt;/p&gt;&#xA;&lt;p&gt;fear of failure, success or rejection&lt;/p&gt;&#xA;&lt;p&gt;ADHD&lt;/p&gt;&#xA;&lt;p&gt;When therapy didn&amp;rsquo;t work&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

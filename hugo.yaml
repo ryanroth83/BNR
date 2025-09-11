@@ -2,15 +2,18 @@ baseURL: https://bnrhouston.com/
 DefaultContentLanguage: en
 languageCode: en-us
 title: BNR
-theme: 
+theme:
 metaDataFormat: yaml
 pygmentsStyle: trac
 pygmentsCodefencesGuessSyntax: true
 enableRobotsTXT: true
 enableGitInfo: false
-Paginate: 6
+
+pagination:
+  pagerSize: 6
 summaryLength: '30'
-buildFuture : true
+buildFuture: true
+
 Params:
   selfHosted: true
   mainSections:
