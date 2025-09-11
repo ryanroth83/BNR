@@ -2,7 +2,11 @@
   <div class="container" role="main">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 center">
-        {{ partial "logo-svg.html" . }}
+        <div>
+          <!--- {{ partial "logo-svg.html" . }} -->
+          {{ $logo := resources.Get "/img/logo.png" }}
+          <img src="{{ $logo.RelPermalink }}" alt="Logo">
+        </div>
         {{ if .Params.slogan }}
           <h3>
             {{ .Params.slogan }}
