@@ -10,11 +10,11 @@ params :
   email : gpa@archconusa.com
 
   location: 
-  street: 900 Threadneedle St
-  suite: 125
-  city: Houston
-  state: TX
-  zip: 77079
+  street: 
+  suite: 
+  city: 
+  state: 
+  zip: 
 
   description: Director Of Design & Construction
   image : 
